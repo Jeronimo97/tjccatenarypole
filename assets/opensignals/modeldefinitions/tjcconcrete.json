@@ -1,0 +1,105 @@
+{
+    "textures": {},
+    "models": {
+        "tjc/concrete/mast_down": {
+			"textures": [
+				{}
+			],
+			"y": 1
+		},
+        "tjc/concrete/mast": {
+			"textures": [
+				{},
+				{
+					"y": 3
+				}
+			],
+			"y": 3
+		},
+		"tjc/normal/beam": {
+			"textures": [
+				{
+					"blockstate": "with(TJCHEIGHT.NORMAL)",
+					"y": 0
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.ONE_THIRD)",
+					"y": 0.3125
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.TWO_THIRDS)",
+					"y": -0.3125
+				}
+			],
+			"y": 5.875,
+			"x": 2
+		},
+		"tjc/normal/isolator": {
+			"textures": [
+				{
+					"blockstate": "with(TJCHEIGHT.NORMAL)",
+					"y": 0
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.ONE_THIRD)",
+					"y": 0.3125
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.TWO_THIRDS)",
+					"y": -0.3125
+				}
+			],
+			"y": 5.875,
+			"x": 0.3125
+		},
+		"tjc/normal/beam_right": {
+			"textures": [
+				{
+					"blockstate": "with(TJCHEIGHT.NORMAL) && hasandis(TJCDOUBLE)",
+					"y": 0
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.ONE_THIRD) && hasandis(TJCDOUBLE)",
+					"y": 0.3125
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.TWO_THIRDS) && hasandis(TJCDOUBLE)",
+					"y": -0.3125
+				}
+			],
+			"y": 5.875,
+			"x": -2
+		},
+		"tjc/normal/isolator_right": {
+			"textures": [
+				{
+					"blockstate": "with(TJCHEIGHT.NORMAL) && hasandis(TJCDOUBLE)",
+					"y": 0
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.ONE_THIRD) && hasandis(TJCDOUBLE)",
+					"y": 0.3125
+				},
+				{
+					"blockstate": "with(TJCHEIGHT.TWO_THIRDS) && hasandis(TJCDOUBLE)",
+					"y": -0.3125
+				}
+			],
+			"y": 5.875,
+			"x": -0.3125
+		},
+        "tjc/hm_sign": {
+            "textures": [
+                {
+                    "blockstate": "with(TJCHECTOMETER.DOUBLE)",
+					"z": 0.25
+                },
+				{
+                    "blockstate": "with(TJCHECTOMETER.SINGLE) || with(TJCHECTOMETER.DOUBLE)",
+					"z": -0.25
+                }
+            ],
+            "y": 1.9
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "textures": {},
+    "models": {
+        "tjc/tunnel/mast_modern_tunnel": {
+			"textures": [
+				{}
+			],
+			"y": 0
+		},
+		"tjc/normal/isolator": {
+			"textures": [
+				{}
+			],
+			"y": -0.125,
+			"x": 0.3125
+		},
+		"tjc/normal/beam": {
+			"textures": [
+				{}
+			],
+			"y": -0.125,
+			"x": 2
+		}
+    }
+}

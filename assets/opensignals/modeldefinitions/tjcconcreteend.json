@@ -1,0 +1,26 @@
+{
+    "textures": {},
+    "models": {
+        "tjc/concrete/mast_down_end": {
+			"textures": [
+				{}
+			],
+			"y": 1
+		},
+        "tjc/concrete/mast_end": {
+			"textures": [
+				{},
+				{
+					"y": 3
+				}
+			],
+			"y": 3
+		},
+		"tjc/concrete/isolator": {
+			"textures": [
+				{}
+			],
+			"y": 6.1875
+		}
+    }
+}

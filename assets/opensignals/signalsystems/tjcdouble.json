@@ -1,0 +1,33 @@
+{
+    "systemProperties": {
+        "placementToolName": "tjccatenarytool",
+        "canLink": false,
+        "defaultHeight": 11,
+        "offsetX": 0.0,
+        "offsetY": -0.3,
+        "signScale": 3.5,
+        "doubleSidedText": {
+			"config(TJCHECTOMETER.DOUBLE)": true
+		},
+        "renderHeights": {
+			"config(TJCHECTOMETER.SINGLE)": 3.0,
+            "config(TJCHECTOMETER.DOUBLE)": 3.0
+		}
+    },
+    "seProperties": [
+        {
+            "name": "tjcheight",
+            "enumClass": "TJCHEIGHT",
+            "defaultState": "NORMAL",
+            "changeableStage": "GUISTAGE",
+            "autoname": true
+        },
+        {
+            "name": "tjchectometer",
+            "enumClass": "TJCHECTOMETER",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE",
+            "autoname": true
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "systemProperties": {
+        "placementToolName": "tjccatenarytool",
+        "canLink": false,
+        "defaultHeight": 0,
+        "signalHeights": {
+			"config(TJCTRAMTYPE.MAST_SINGLE)": 6,
+			"config(TJCTRAMTYPE.MAST_DOUBLE)": 6,
+            "config(TJCTRAMTYPE.MAST)": 6
+		}
+    },
+    "seProperties": [
+        {
+            "name": "tjctramtype",
+            "enumClass": "TJCTRAMTYPE",
+            "defaultState": "MAST_SINGLE",
+            "changeableStage": "GUISTAGE",
+            "autoname": true
+        },
+        {
+            "name": "tjcheight",
+            "enumClass": "TJCHEIGHT",
+            "defaultState": "NORMAL",
+            "changeableStage": "GUISTAGE",
+            "autoname": true
+        },
+        {
+            "name": "tjctramlength",
+            "enumClass": "TJCTRAMLENGTH",
+            "defaultState": "L9",
+            "changeableStage": "GUISTAGE",
+            "autoname": true,
+            "dependencies": "with(TJCTRAMTYPE.CATENARY)"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "textures": {},
+    "models": {
+        "tjc/double/mast_down": {
+			"textures": [
+				{}
+			],
+			"y": 1
+		},
+        "tjc/double/mast_middle": {
+			"textures": [
+				{},
+				{
+					"y": 3
+				}
+			],
+			"y": 4
+		},
+        "tjc/double/mast_top": {
+			"textures": [
+				{}
+			],
+			"y": 10
+		},
+		"tjc/double/beam_a": {
+			"textures": [
+				{}
+			],
+			"y": 7.1875,
+			"x": 2
+			
+		},
+		"tjc/double/beam_b": {
+			"textures": [
+				{}
+			],
+			"y": 7.1875,
+			"x": 8
+			
+		},
+		"tjc/double/isolator_a": {
+			"textures": [
+				{}
+			],
+			"y": 6.75,
+			"x": 0.3125
+		},
+		"tjc/double/isolator_b": {
+			"textures": [
+				{}
+			],
+			"y": 6.75,
+			"x": 6.3125
+		},
+		"tjc/double/mounting_wire": {
+			"textures": [
+				{}
+			],
+			"y": 9.8125,
+			"x": 1.5625
+		},
+		"tjc/double/mounting_wire_middle": {
+			"textures": [
+				{
+					"y": 8.8125,
+					"x": 4.0625
+				},
+				{
+					"y": 8.0625,
+					"x": 5.875
+				}
+			],
+			"y": 0
+		},
+		"tjc/double/mounting": {
+			"textures": [
+				{}
+			],
+			"y": 7.1875,
+			"x": 5
+		},
+        "tjc/hm_sign": {
+            "textures": [
+                {
+                    "blockstate": "with(TJCHECTOMETER.DOUBLE)",
+					"z": 0.2
+                },
+				{
+                    "blockstate": "with(TJCHECTOMETER.SINGLE) || with(TJCHECTOMETER.DOUBLE)",
+					"z": -0.2
+                }
+            ],
+            "y": 1.9
+        }
+    }
+}
