@@ -6,6 +6,7 @@ tile.tjcconcreteend.name=Oberleitungsmast Ende
 tile.tjcnormal.name=Normaler Oberleitungsmast
 tile.tjcconcrete.name=Beton Oberleitungsmast
 tile.tjctunnel.name=Tunnel Oberleitungsmast
+tile.tjccrossshort.name=Überspannender Mast klein
 property.tjccrosstype.name=Typ
 property.tjccrosstype.desc=
 property.tjchectometer.name=Hektometer Typ

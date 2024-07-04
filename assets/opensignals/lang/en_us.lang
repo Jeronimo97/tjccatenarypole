@@ -6,6 +6,7 @@ tile.tjcconcreteend.name=End Catenary Pole
 tile.tjcnormal.name=Normal Catenary Pole
 tile.tjcconcrete.name=Concrete Catenary Pole
 tile.tjctunnel.name=Tunnel Catenary Pole
+tile.tjccrossshort.name=Crossing Pole small
 property.tjccrosstype.name=Crossing Type
 property.tjccrosstype.desc=
 property.tjchectometer.name=Hectometer Type

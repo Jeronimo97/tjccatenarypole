@@ -1,0 +1,44 @@
+{
+    "systemProperties": {
+        "placementToolName": "tjccatenarytool",
+        "canLink": false,
+        "defaultHeight": 11,
+        "offsetX": 0.0,
+        "offsetY": -0.3,
+        "signScale": 3.5,
+        "doubleSidedText": {
+			"config(TJCHECTOMETER.DOUBLE)": true
+		},
+        "renderHeights": {
+			"config(TJCHECTOMETER.SINGLE)": 2.0,
+            "config(TJCHECTOMETER.DOUBLE)": 2.0
+		},
+        "signalHeights": {
+			"config(TJCCROSSTYPE.CROSS)": 0
+		}
+    },
+    "seProperties": [
+        {
+            "name": "tjccrosstype",
+            "enumClass": "TJCCROSSTYPE",
+            "defaultState": "MAST_LEFT",
+            "changeableStage": "GUISTAGE",
+            "autoname": true
+        },
+        {
+            "name": "tjchectometer",
+            "enumClass": "TJCHECTOMETER",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE",
+            "autoname": true
+        },
+        {
+            "name": "tjccrosslength",
+            "enumClass": "TJCTRAMLENGTH",
+            "defaultState": "L9",
+            "changeableStage": "GUISTAGE",
+            "autoname": true,
+            "dependencies": "with(TJCCROSSTYPE.CROSS)"
+        }
+    ]
+}
