@@ -15,7 +15,8 @@
 		},
         "signalHeights": {
 			"config(TJCCROSSTYPE.CROSS)": 0
-		}
+		},
+        "customRenderBoundingBox": [-50,0,-50,50,10,50]
     },
     "seProperties": [
         {
